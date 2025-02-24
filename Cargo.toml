@@ -1,0 +1,13 @@
+[package]
+name = "randacc"
+version = "0.1.0"
+edition = "2021"
+
+[dev-dependencies]
+divan = "*"
+fastlanes = "*"
+snap = "*"
+
+[[bench]]
+name = "random_access"
+harness = false
